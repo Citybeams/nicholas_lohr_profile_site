@@ -1,0 +1,142 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body{
+    background: url("brickwall_@2X.png");
+ }
+
+img{
+    margin: 80px 0px 0px 0px;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #7C7C7C;
+  }
+
+ header{
+    text-align: center;
+ }
+
+ h1{
+    font-size: 50px;
+    background: white;
+    box-shadow: 3px 3px 3px #7C7C7C;
+    width: 315px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+ }
+
+ul{
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    display: inline;
+    box-shadow: 3px 3px 3px #7C7C7C;
+}
+
+li{
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+
+a:hover{
+  text-decoration: none;
+  color: peach;
+}
+
+.wolf-wrapper{
+  position: absolute;
+}
+
+.wolf img{
+  height: 80px;
+  width: 225px;
+  position: relative;
+  left: 75px;
+  bottom: 400px;
+}
+
+.citybeams-wrapper{
+  position: absolute;
+}
+
+
+.citybeams img{
+  height: 100px;
+  width: 225px;
+  position: relative;
+  left: 850px;
+  bottom: 400px;
+}
+
+.wanderparty-wrapper{
+  position: absolute;
+}
+
+
+.wanderparty img{
+  height: 120px;
+  width: 245px;
+  position: relative;
+  left: 915px;
+  bottom: 150px;
+}
+
+.wdi-wrapper{
+  position: absolute;
+}
+
+.wdi img{
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 110px;
+  bottom: 150px;
+  background-color: white
+}
+/*
+.wolf-rope-wrapper{
+  position: absolute;
+}
+
+.wolf-rope img{
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 110px;
+  bottom: 285px;
+  box-shadow: none;
+  border: none;
+}
+*/
+
+
+
+@media (max-width: 600px){
+      h1{
+        font-size: 36px
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
