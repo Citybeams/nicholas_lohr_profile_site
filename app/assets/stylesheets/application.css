@@ -25,7 +25,16 @@ img{
     box-shadow: 3px 3px 3px #7C7C7C;
   }
 
-.profile{
+  .profile_wrapper{
+    position: absolute;
+  }
+
+  .profile{
+    position: relative;
+    left: 540px;
+  }
+
+/*.profile{
     text-align: center;
  }
 
@@ -37,6 +46,7 @@ img{
     margin: 0 auto;
     margin-bottom: 40px;
     margin-top: 40px;
+    border-radius: 20px;
  }
 
 ul{
@@ -45,6 +55,7 @@ ul{
     background: white;
     display: inline;
     box-shadow: 3px 3px 3px #7C7C7C;
+    border-radius: 20px;
 }
 
 li{
@@ -61,7 +72,7 @@ a{
 a:hover{
   text-decoration: none;
   background-color: #FFDAB9;
-}
+}*/
 
 .wolf-wrapper{
   position: absolute;
@@ -72,7 +83,7 @@ a:hover{
   width: 225px;
   position: relative;
   left: 75px;
-  bottom: 400px;
+  bottom: 10px;
 }
 
 .citybeams-wrapper{
@@ -85,7 +96,7 @@ a:hover{
   width: 225px;
   position: relative;
   left: 850px;
-  bottom: 400px;
+  bottom: 20px;
 }
 
 .wanderparty-wrapper{
@@ -98,7 +109,7 @@ a:hover{
   width: 245px;
   position: relative;
   left: 915px;
-  bottom: 150px;
+  bottom: -260px;
 }
 
 .wdi-wrapper{
@@ -110,7 +121,7 @@ a:hover{
   width: 200px;
   position: relative;
   left: 110px;
-  bottom: 150px;
+  bottom: -240px;
   background-color: white
 }
 
@@ -123,7 +134,7 @@ a:hover{
   width: 200px;
   position: relative;
   left: 75px;
-  bottom: 498px;
+  bottom: 100px;
   box-shadow: none;
   border: none;
   z-index: -1;
@@ -138,7 +149,7 @@ a:hover{
   width: 175px;
   position: relative;
   left: 880px;
-  bottom: 470px;
+  bottom: 80px;
   box-shadow: none;
   border: none;
   z-index: -1;
@@ -153,7 +164,7 @@ a:hover{
   width: 175px;
   position: relative;
   left: 130px;
-  bottom: 215px;
+  bottom: -190px;
   box-shadow: none;
   border: none;
   z-index: -1;
@@ -168,7 +179,7 @@ a:hover{
   width: 175px;
   position: relative;
   left: 950px;
-  bottom: 215px;
+  bottom: -190px;
   box-shadow: none;
   border: none;
   z-index: -1;
@@ -203,6 +214,23 @@ a:hover{
   border: none;
   z-index: -1;
 }
+
+.contact-chain-wrapper{
+  position: absolute;
+}
+
+.contact-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 552px;
+  bottom: 150px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+
 
 
 
