@@ -1,0 +1,385 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+ body{
+    background: url("brickwall_@2X.png");
+    overflow: hidden;
+ }
+
+img{
+    margin: 80px 0px 0px 0px;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #7C7C7C;
+  }
+
+  .profile_wrapper{
+    position: absolute;
+  }
+
+  .profile{
+    position: relative;
+    left: 406px;
+    text-align: center;
+  }
+
+
+h1{
+    font-size: 50px;
+    background: white;
+    box-shadow: 3px 3px 3px #7C7C7C;
+    width: 325px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: grey;
+    font-family: "Helvetica Neue", "HelveticaNeue", helvetica, arial, sans-serif;
+ }
+
+ul{
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    display: inline;
+    box-shadow: 3px 3px 3px #7C7C7C;
+    border-radius: 20px;
+}
+
+li{
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-family: "Helvetica Neue", "HelveticaNeue", helvetica, arial, sans-serif;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+
+a:hover{
+  text-decoration: none;
+  background-color: #FFDAB9;
+}
+
+.wolf-wrapper{
+  position: absolute;
+}
+
+.wolf img{
+  height: 80px;
+  width: 225px;
+  position: relative;
+  left: 75px;
+  bottom: 10px;
+}
+
+.citybeams-wrapper{
+  position: absolute;
+}
+
+
+.citybeams img{
+  height: 100px;
+  width: 225px;
+  position: relative;
+  left: 850px;
+  bottom: 20px;
+}
+
+.wanderparty-wrapper{
+  position: absolute;
+}
+
+
+.wanderparty img{
+  height: 120px;
+  width: 245px;
+  position: relative;
+  left: 915px;
+  bottom: -280px;
+}
+
+.wdi-wrapper{
+  position: absolute;
+}
+
+.wdi img{
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 110px;
+  bottom: -240px;
+  background-color: white
+}
+
+.wolf-rope-wrapper{
+  position: absolute;
+}
+
+.wolf-rope img{
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 75px;
+  bottom: 100px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.citybeams-rope-wrapper{
+  position: absolute;
+}
+
+.citybeams-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 880px;
+  bottom: 80px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.wdi-rope-wrapper{
+  position: absolute;
+}
+
+.wdi-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 130px;
+  bottom: -190px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.wanderparty-rope-wrapper{
+  position: absolute;
+}
+
+.wanderparty-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 950px;
+  bottom: -215px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.profile-rope-wrapper{
+  position: absolute;
+}
+
+.profile-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 520px;
+  bottom: 72px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.profile-chain-wrapper{
+  position: absolute;
+}
+
+.profile-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 520px;
+  bottom: -153px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.contact-chain-wrapper{
+  position: absolute;
+}
+
+.contact-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 522px;
+  bottom: -312px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+
+.foodcub-description-wrapper{
+  position: absolute;
+}
+
+.foodcub-description  {
+  position: relative;
+  top: 170px;
+  left: 100px;
+  height: 80px;
+  width: 200px;
+  background-color: #cdd0d7;
+  word-wrap: break-word;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Helvetica Neue", "HelveticaNeue", helvetica, arial, sans-serif;
+  box-shadow: 3px 3px 3px #7C7C7C;
+  z-index: 2;
+
+}
+
+.wdi-description-wrapper{
+  position: absolute;
+}
+
+.wdi-description  {
+  position: relative;
+  top: 440px;
+  left: 114px;
+  height: 115px;
+  width: 200px;
+  background-color: #cdd0d7;
+  word-wrap: break-word;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Helvetica Neue", "HelveticaNeue", helvetica, arial, sans-serif;
+  box-shadow: 3px 3px 3px #7C7C7C;
+
+}
+
+.citybeams-description-wrapper{
+  position: absolute;
+}
+
+.citybeams-description  {
+  position: relative;
+  top: 173px;
+  left: 873px;
+  height: 90px;
+  width: 200px;
+  background-color: #cdd0d7;
+  word-wrap: break-word;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Helvetica Neue", "HelveticaNeue", helvetica, arial, sans-serif;
+}
+
+.wanderparty-description-wrapper{
+  position: absolute;
+}
+
+.wanderparty-description  {
+  position: relative;
+  top: 490px;
+  left: 943px;
+  height: 120px;
+  width: 200px;
+  background-color: #cdd0d7;
+  word-wrap: break-word;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Helvetica Neue", "HelveticaNeue", helvetica, arial, sans-serif;
+}
+
+
+.foodcub-chain-wrapper{
+  position: absolute;
+}
+
+.foodcub-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 122px;
+  bottom: -45px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.wdi-chain-wrapper{
+  position: absolute;
+}
+
+.wdi-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 132px;
+  bottom: -332px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.citybeams-chain-wrapper{
+  position: absolute;
+}
+
+.citybeams-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 894px;
+  bottom: -67px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.wanderparty-chain-wrapper{
+  position: absolute;
+}
+
+.wanderparty-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 958px;
+  bottom: -400px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+
+
+@media (max-width: 600px){
+      h1{
+        font-size: 36px
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
