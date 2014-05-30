@@ -25,7 +25,7 @@ img{
     box-shadow: 3px 3px 3px #7C7C7C;
   }
 
- header{
+.profile{
     text-align: center;
  }
 
@@ -33,10 +33,10 @@ img{
     font-size: 50px;
     background: white;
     box-shadow: 3px 3px 3px #7C7C7C;
-    width: 315px;
+    width: 325px;
     margin: 0 auto;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
  }
 
 ul{
@@ -60,7 +60,7 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: peach;
+  background-color: #FFDAB9;
 }
 
 .wolf-wrapper{
@@ -113,7 +113,7 @@ a:hover{
   bottom: 150px;
   background-color: white
 }
-/*
+
 .wolf-rope-wrapper{
   position: absolute;
 }
@@ -122,12 +122,91 @@ a:hover{
   height: 100px;
   width: 200px;
   position: relative;
-  left: 110px;
-  bottom: 285px;
+  left: 75px;
+  bottom: 498px;
   box-shadow: none;
   border: none;
+  z-index: -1;
 }
-*/
+
+.citybeams-rope-wrapper{
+  position: absolute;
+}
+
+.citybeams-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 880px;
+  bottom: 470px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.wdi-rope-wrapper{
+  position: absolute;
+}
+
+.wdi-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 130px;
+  bottom: 215px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.wanderparty-rope-wrapper{
+  position: absolute;
+}
+
+.wanderparty-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 950px;
+  bottom: 215px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.profile-rope-wrapper{
+  position: absolute;
+}
+
+.profile-rope img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 543px;
+  bottom: 475px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+.profile-chain-wrapper{
+  position: absolute;
+}
+
+.profile-chain img{
+  height: 80px;
+  width: 175px;
+  position: relative;
+  left: 552px;
+  bottom: 253px;
+  box-shadow: none;
+  border: none;
+  z-index: -1;
+}
+
+
+
+
 
 
 
