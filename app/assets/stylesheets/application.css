@@ -16,6 +16,7 @@
 
  body{
     background: url("brickwall_@2X.png");
+    overflow: hidden;
  }
 
 img{
@@ -31,12 +32,12 @@ img{
 
   .profile{
     position: relative;
-    left: 540px;
+    left: 444px;
+    text-align: center;
   }
 
-/*.profile{
-    text-align: center;
- }
+
+
 
  h1{
     font-size: 50px;
@@ -72,7 +73,7 @@ a{
 a:hover{
   text-decoration: none;
   background-color: #FFDAB9;
-}*/
+}
 
 .wolf-wrapper{
   position: absolute;
@@ -209,7 +210,7 @@ a:hover{
   width: 175px;
   position: relative;
   left: 552px;
-  bottom: 253px;
+  bottom: -153px;
   box-shadow: none;
   border: none;
   z-index: -1;
@@ -224,13 +225,46 @@ a:hover{
   width: 175px;
   position: relative;
   left: 552px;
-  bottom: 150px;
+  bottom: -242px;
   box-shadow: none;
   border: none;
   z-index: -1;
 }
 
 
+.foodcub-description-wrapper{
+  position: absolute;
+}
+
+.foodcub-description  {
+  position: relative;
+  top: 160px;
+  left: 100px;
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  word-wrap: break-word;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.wdi-description-wrapper{
+  position: absolute;
+}
+
+.wdi-description  {
+  position: relative;
+  top: 440px;
+  left: 100px;
+  height: 70px;
+  width: 200px;
+  background-color: white;
+  word-wrap: break-word;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 17px;
+}
 
 
 
